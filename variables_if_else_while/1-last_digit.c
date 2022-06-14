@@ -20,13 +20,13 @@ int main(void)
 	}
 	else
 	{
-		if (n % 5 < 6 && n % 5 !=0)
+		if (n % 5 < 6 && n % 5 != 0)
 		{
 			printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 5);
 		}
 		else
 		{
-			printf("Last digit of %i is %i and is 0\n", n, n% 5);
+			printf("Last digit of %i is %i and is 0\n", n, n % 5);
 		}
 	}
 	return (0);
