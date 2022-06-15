@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 /**
- * main - Prints wheter a number is positive, negative or zero
+ * main - Prints alphabet in lowercase
  * Return: 0 Success
  */
 
 int main(void)
 {
-char letra;
-for (letra = 'a' ; letra <= 'z' ; letra++)
+char letter;
+for (letter = 'a' ; letter <= 'z' ; letter++)
 {
-putchar(letra);
+putchar(letter);
 }
 putchar('\n');
 return (0);
