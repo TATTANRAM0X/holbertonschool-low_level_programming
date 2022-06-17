@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
-* lowercase check
-* @c: check_lowercase 
+* _islower - lowercase check
+* @c: check
 * Return: 0
 */
 
 int _islower(int c)
 {
-char check_lowercase;
-for (check_lowercase = 'a'; check_lowercase <= 'z'; check_lowercase++)
+char check;
+for (check = 'a'; check <= 'z'; check++)
 {
-if (c == check_lowercase)
-return (1);
+if (c == check)
+r.eturn (1);
 }
 return (0);
 }
