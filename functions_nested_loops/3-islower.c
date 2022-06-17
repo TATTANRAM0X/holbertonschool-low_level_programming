@@ -2,7 +2,7 @@
 
 /**
 * lowercase check
-* @c: check 
+* @c: check_lowercase 
 * Return: 0
 */
 
