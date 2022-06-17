@@ -12,7 +12,7 @@ char check;
 for (check = 'a'; check <= 'z'; check++)
 {
 if (c == check)
-r.eturn (1);
+return (1);
 }
 return (0);
 }
