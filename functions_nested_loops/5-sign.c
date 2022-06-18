@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_sign - check the alphabetic character
+* print_sign - Print sign
 * @n: print sign
 * Return: 1 if > 0, 0 if = 0, -1 if < 0
 */
