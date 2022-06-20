@@ -12,12 +12,11 @@ int min_repeat = 1;
 int max_repeat = 10;
 int min_number = 0;
 int max_number = 14;
-int repeat_cycle = 9;
 for (repeat = min_repeat; repeat <= max_repeat; repeat++)
 {
 for (number = min_number; number <= max_number; number++)
 {
-if (number > repeat_cycle)
+if (number >= 10)
 {
 putchar ((number / base) + '0');
 }
