@@ -3,7 +3,7 @@
 /**
 * main - main declaration for funtion
 * @argc: indicate size of argv
-* @argv: program arguments
+* @argv: program argumentet
 * Return: EXIT_SUCCESS
 */
 
@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 	int result = 0;
 	int first_argument;
 	int second_argument;
+
 	if (argc == 3)
 	{
 		first_argument = atoi(argv[1]);
