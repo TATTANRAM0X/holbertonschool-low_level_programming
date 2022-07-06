@@ -4,7 +4,7 @@
   * main - main declaration for funtion
   * @argc: indicate size of argv
   * @argv: program arguments
-  * Return: 0
+  * Return: EXIT_SUCCES
   * program that prints the number of arguments passed into it
  */
 
