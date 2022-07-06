@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-* main - print the number
-* @argc: size of argv
-* @argv: program
+* main - main declaration for funtion
+* @argc: indicate size of argv
+* @argv: program arguments
 * Return: EXIT_SUCCESS
 */
 
 int main(int argc, char *argv[])
 {
-	int result=0;
+	int result = 0;
 	int first_argument;
 	int second_argument;
 	if (argc == 3)
