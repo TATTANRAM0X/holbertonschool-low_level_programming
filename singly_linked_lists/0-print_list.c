@@ -2,7 +2,6 @@
 
 /**
  * print_list - Prints all the elements of a list_t list
- *
  * @h: head node
  * 
  * Return: number_nodes
@@ -23,3 +22,4 @@ size_t print_list(const list_t *h)
 	}
 	return (number_nodes);
 }
+
