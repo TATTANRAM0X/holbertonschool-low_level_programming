@@ -3,7 +3,6 @@
 /**
  * pop_listint - deletes the head node of a list
  *@head: double pointer to the beginning of the list
-
  * Return: head node's data (n)
  */
 
