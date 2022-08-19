@@ -1,7 +1,8 @@
-# Simple Shell Project
 ***
 ![image](https://us.123rf.com/450wm/fad82/fad821710/fad82171000042/87527707-concepto-de-programaci%C3%B3n-y-codificaci%C3%B3n-programador-de-codificaci%C3%B3n-en-la-computadora-port%C3%A1til-.jpg)
 ***
+# Simple Shell Project
+
 Project by [Jhonatan Ramos](https://github.com/TATTANRAM0X) and [Luis Miguel Moreno](https://github.com/miguel5219)
 
 In this project we were assigned to make a functional Shell, with its basic commands.
@@ -87,6 +88,6 @@ $
 
 ## Collaboration
 
-[Jhonatan Ramos](https://github.com/TATTANRAM0X) 5202@holbertonstudents.com
+| [Jhonatan Ramos](https://github.com/TATTANRAM0X) | 5202@holbertonstudents.com |
 
-[Luis Miguel Moreno](https://github.com/miguel5219) 5219@holbertonstudents.com
+| [Luis Miguel Moreno](https://github.com/miguel5219) | 5219@holbertonstudents.com |
