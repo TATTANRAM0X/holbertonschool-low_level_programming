@@ -92,6 +92,6 @@ $
 
 [Luis Miguel Moreno](https://github.com/miguel5219)  5219@holbertonstudents.com 
 
-![image](https://pbs.twimg.com/profile_images/1542889793784369153/MI5UnXyd_400x400.jpg)
-### For Holberton School
+          ![image](https://pbs.twimg.com/profile_images/1542889793784369153/MI5UnXyd_400x400.jpg)
+###                     For Holberton School
 ***
