@@ -22,7 +22,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	ht_temp = ht->array[index];
 
-	if (ht_temp)
+	while (ht_temp)
 	{
 		if (strcmp(ht_temp->key, key) == 0)
 			return (ht_temp->value);
