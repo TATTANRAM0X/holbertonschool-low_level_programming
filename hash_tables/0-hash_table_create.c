@@ -1,4 +1,4 @@
-#include "hast_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_create - Funtion thah creates a hash table
@@ -9,7 +9,8 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	hash_table_t *new_hash_table = malloc(sizeof(hast_table_t));
+	hash_table_t *new_hash_table = malloc(sizeof(hash_table_t));
+	unsigned long int i;
 
 	if (!new_hash_table)
 		return (NULL);
@@ -23,12 +24,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 			return (NULL);
 	}
 
-	unsigned long int i = 0;
-
-	for (; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		new_hash_table->array[i] = NULL;
 	}
-	return (new_hast_table)
+	return (new_hash_table);
 }
 
