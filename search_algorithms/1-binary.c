@@ -33,13 +33,13 @@ void print_array(int *array, int first, int last)
 int binary_search(int *array, size_t size, int value)
 {
 	int left = 0, right = size - 1, middle = 0;
-	
+
 	while (left <= right)
 	{
 		print_array(array, left, right);
-		
+
 		middle = (int)((left + right) / 2);
-		
+
 		if (array[middle] < value)
 			left = middle + 1;
 		else if (array[middle] > value)
